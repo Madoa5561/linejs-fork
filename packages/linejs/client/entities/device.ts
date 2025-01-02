@@ -27,12 +27,12 @@ export function getDeviceDetails(
 
 	switch (device) {
 		case "DESKTOPWIN":
-			appVersion = "9.2.0.3403";
+			appVersion = "9.5.0.3497";
 			if (deviceMap[device]) {
 				appVersion = deviceMap[device];
 			}
 			systemName = "WINDOWS";
-			systemVersion = "10.0.0-NT-x64";
+			systemVersion = "11.0.0-NT-x64";
 			break;
 		case "DESKTOPMAC":
 			appVersion = "9.2.0.3402";
@@ -52,21 +52,21 @@ export function getDeviceDetails(
 			break;
 		*/
 		case "ANDROID":
-			appVersion = "13.4.1";
+			appVersion = "14.21.0";
 			if (deviceMap[device]) {
 				appVersion = deviceMap[device];
 			}
 			systemName = "Android OS";
 			break;
 		case "IOS":
-			appVersion = "13.3.0";
+			appVersion = "14.21.0";
 			if (deviceMap[device]) {
 				appVersion = deviceMap[device];
 			}
 			systemName = "iOS";
 			break;
 		case "IOSIPAD":
-			appVersion = "13.3.0";
+			appVersion = "14.21.0";
 			if (deviceMap[device]) {
 				appVersion = deviceMap[device];
 			}
